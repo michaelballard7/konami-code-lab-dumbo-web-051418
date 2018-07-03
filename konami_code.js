@@ -20,9 +20,9 @@ function init() {
     
     abc = (codes[abc] === key) ? ++abc : 0
     
-    if (idx === codes.length) {
+    if (abc === codes.length) {
       window.alert("Hurray!");
-      idx = 0
+      abc = 0
     }
     
   });
